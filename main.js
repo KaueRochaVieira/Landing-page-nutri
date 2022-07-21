@@ -73,7 +73,10 @@ ScrollReveal({
   #home .stats, 
   #services,
   #services header,
-  #services .card
+  #services .card,
+  #planos,
+  #planos header,
+  #planos .card,
   #about, 
   #about header, 
   #about .content`)
