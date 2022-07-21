@@ -417,7 +417,6 @@ body.menu-expanded button path {
 /*=== ABOUT =================================*/
 #about {
   text-align: left;
-  background-color: var(--brand-beige);
 }
 
 #about header h2 {
