@@ -361,7 +361,7 @@ body.menu-expanded button path {
   width: 26.4rem;
   display: block;
   margin-inline: auto;
-  object-position: 0 0.8rem;
+  margin-bottom: 1rem;
 }
 
 #home .stats {
@@ -773,7 +773,7 @@ footer .social-links {
 
   #home img {
     width: 35rem;
-    object-position: 0 1rem;
+    margin-top: 1rem;
   }
 
   /*=== SERVICES =================================*/
