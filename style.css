@@ -7,6 +7,7 @@
 
 :root {
   --hue: 190;
+  --hue1: 0;
   --primary-color: #a00403;
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -163,8 +164,8 @@ body.menu-expanded #navigation .logo path,
   height: 1px;
   background: linear-gradient(
     270deg,
-    hsla(var(--hue), 36%, 57%, 1),
-    hsla(var(--hue), 65%, 88%, 0.34)
+    hsla(var(--hue1), 36%, 57%, 1),
+    hsla(var(--hue1), 65%, 88%, 0.34)
   );
 }
 
@@ -172,8 +173,8 @@ body.menu-expanded #navigation .logo path,
   height: 1px;
   background: linear-gradient(
     270deg,
-    hsla(var(--hue), 65%, 88%, 0.34),
-    hsla(var(--hue), 36%, 57%, 1)
+    hsla(var(--hue1), 65%, 88%, 0.34),
+    hsla(var(--hue1), 36%, 57%, 1)
   );
 }
 
@@ -181,8 +182,8 @@ body.menu-expanded #navigation .logo path,
   height: 1px;
   background: linear-gradient(
     270deg,
-    hsla(var(--hue), 36%, 57%, 1),
-    hsla(var(--hue), 65%, 88%, 0.34)
+    hsla(var(--hue1), 36%, 57%, 1),
+    hsla(var(--hue1), 65%, 88%, 0.34)
   );
 }
 
@@ -190,8 +191,8 @@ body.menu-expanded #navigation .logo path,
   height: 1px;
   background: linear-gradient(
     270deg,
-    hsla(var(--hue), 65%, 88%, 0.34),
-    hsla(var(--hue), 36%, 57%, 1)
+    hsla(var(--hue1), 65%, 88%, 0.34),
+    hsla(var(--hue1), 36%, 57%, 1)
   );
 }
 /*=== NAVIGATION =================================*/
@@ -360,7 +361,7 @@ body.menu-expanded button path {
   width: 26.4rem;
   display: block;
   margin-inline: auto;
-  object-position: 0 2rem;
+  object-position: 0 0.8rem;
 }
 
 #home .stats {
@@ -533,7 +534,7 @@ footer .logo {
 }
 
 footer .logo svg {
-  width: 23.6rem;
+  width: 20.6rem;
   height: 3.1rem;
 }
 
@@ -771,7 +772,8 @@ footer .social-links {
   }
 
   #home img {
-    width: 42rem;
+    width: 35rem;
+    object-position: 0 1rem;
   }
 
   /*=== SERVICES =================================*/
