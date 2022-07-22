@@ -7,6 +7,8 @@ function onScroll() {
 
   activateMenuAtCurrentSection(home)
   activateMenuAtCurrentSection(services)
+  activateMenuAtCurrentSection(planos)
+  activateMenuAtCurrentSection(beneficios)
   activateMenuAtCurrentSection(about)
   activateMenuAtCurrentSection(contact)
 }
@@ -74,6 +76,9 @@ ScrollReveal({
   #services,
   #services header,
   #services .card,
+  #beneficios, 
+  #beneficios header, 
+  #beneficios .content
   #planos,
   #planos header,
   #planos .card,

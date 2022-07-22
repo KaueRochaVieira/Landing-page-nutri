@@ -159,6 +159,41 @@ body.menu-expanded #navigation .logo path,
   stroke: white;
 }
 
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 36%, 57%, 1),
+    hsla(var(--hue), 65%, 88%, 0.34)
+  );
+}
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 65%, 88%, 0.34),
+    hsla(var(--hue), 36%, 57%, 1)
+  );
+}
+
+.divider-3 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 36%, 57%, 1),
+    hsla(var(--hue), 65%, 88%, 0.34)
+  );
+}
+
+.divider-4 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(var(--hue), 65%, 88%, 0.34),
+    hsla(var(--hue), 36%, 57%, 1)
+  );
+}
 /*=== NAVIGATION =================================*/
 nav {
   display: flex;
@@ -383,6 +418,27 @@ body.menu-expanded button path {
   margin-block: 1.6rem;
 }
 
+/*=== BENEFICIOS =================================*/
+#beneficios {
+  text-align: left;
+  text-color: black;
+  font-size: 19px;
+}
+
+#beneficios header h2 {
+  margin-bottom: 2.4rem;
+}
+
+#beneficios ol {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+#beneficios .content li {
+  margin-top: 2.4rem;
+  margin-bottom: 6rem;
+}
+
 /*=== PLANOS =================================*/
 #planos header h2 {
   margin-bottom: 6rem;
@@ -455,6 +511,10 @@ body.menu-expanded button path {
   display: flex;
   align-items: center;
   gap: 0.8rem;
+}
+
+#contact img {
+  border-radius: 1rem;
 }
 
 /*=== FOOTER =================================*/
